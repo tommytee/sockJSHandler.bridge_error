@@ -1,0 +1,12 @@
+{
+  "name": "sockJSHandler.bridge_error",
+  "version": "0.0.1",
+  "description": "vertx sockjs handler error",
+  "dependencies": {
+    "vertx3-full": "^3.4.1"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/vertx run server.js",
+    "server2": "./node_modules/.bin/vertx run server2.js"
+  }
+}
